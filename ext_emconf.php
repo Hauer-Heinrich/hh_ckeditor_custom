@@ -11,7 +11,7 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'Hauer-Heinrich ckeditor custom',
+	'title' => 'Simple Ext for customize the ck_editor',
 	'description' => 'RTE ck_editor custom config with example data',
 	'category' => 'be',
 	'author' => 'Christian Hackl',
