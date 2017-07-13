@@ -1,0 +1,15 @@
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+.bold, strong, b { font-weight: 800; }
+.align-left, .text-left { text-align: left; }
+.align-center, .text-center { text-align: center; }
+.align-right, .text-right { text-align: right; }
+.align-justify, .text-justify { text-align: justify; }
+
+blockquote { border-left: 4px solid; font-style: italic; padding-left: 20px; margin-bottom: 10px; }
+blockquote p:last-child { padding-bottom: 0; }
+
+.color1 { color: #eee; }
+.color2 { color: #333; }
