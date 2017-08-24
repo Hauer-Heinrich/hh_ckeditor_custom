@@ -1,0 +1,51 @@
+### Typo3 ###
+
+# Ignore cache folders
+/typo3temp/
+/fileadmin/_processed_/
+/fileadmin/_temp_/
+/fileadmin/user_upload/
+/uploads/
+
+# Ignore cache
+/typo3conf/temp_CACHED*
+/typo3conf/temp_fieldInfo.php
+/typo3conf/deprecation_*.log
+/typo3conf/ENABLE_INSTALL_TOOL
+
+!/typo3conf/AdditionalConfiguration.php
+
+# Ignore system folders, you should have them symlinked.
+# If not comment out the following entries.
+/typo3
+/typo3_src
+/typo3_src-*
+/.htaccess
+/index.php
+
+!/uploads/
+
+
+### MAC ###
+*.DS_Store
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Desktop.ini
+Thumbs.db
+.Spotlight-V100
+.Trashes
+*.pyc
+*.out
+venv
+node_modules
+.sass-cache
+
+
+### other ###
+/install.php
+/symlink.php
+/deploy/
+/typo3-deploy/
+/typo3-deploy-dev/
