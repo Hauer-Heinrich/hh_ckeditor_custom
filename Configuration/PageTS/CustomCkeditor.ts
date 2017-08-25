@@ -1,5 +1,5 @@
 RTE {
   default {
-    preset = hh_custom_ckeditor
+    preset = hh_ckeditor_custom
   }
 }

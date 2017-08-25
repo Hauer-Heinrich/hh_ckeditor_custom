@@ -6,9 +6,8 @@ call_user_func(function() {
 
   // make PageTsConfig selectable
   \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
-  		$_EXTENSION,
-  		'Configuration/PageTS/CustomCkeditor.ts',
-  		'EXT:'.$_EXTENSION.' :: HH ckeditor custom config'
+		$_EXTENSION,
+		'Configuration/PageTS/CustomCkeditor.ts',
+		'EXT:'.$_EXTENSION.' :: HH ckeditor custom config'
   );
 });
-?>

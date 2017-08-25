@@ -1,6 +1,2 @@
-###################
-### RTE Presets ###
-###################
-
-# cat=RTE; type=string; label=LLL:EXT:hh_ckeditor_custom/Resources/Private/Language/locallang_extconfig.xlf:extconfig.rtePresetsPath
+# cat=basic/enable/010; label=LLL:EXT:hh_ckeditor_custom/Resources/Private/Language/locallang_extconfig.xlf:extconfig.rtePresetsPath
 rtePresets = fileadmin/hh_ckeditor_custom/Configuration/RTE/custom_ckeditor_config.yaml
