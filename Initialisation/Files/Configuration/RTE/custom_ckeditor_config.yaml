@@ -16,7 +16,9 @@ editor:
 
   config:
 
-    contentsCss: ["EXT:rte_ckeditor/Resources/Public/Css/contents.css", "fileadmin/hh_ckeditor_custom/Resources/Public/Css/custom_ckeditor.css"]
+    contentsCss:
+      - "EXT:rte_ckeditor/Resources/Public/Css/contents.css"
+      - "../fileadmin/hh_ckeditor_custom/Resources/Public/Css/custom_ckeditor.css"
 
     # For inline stil:
     stylesSet: [{ "name": "color1", "element": "span", "attributes": {"class": "color1"} }, { "name": "color2", "element": "span", "attributes": {"class": "color2"} }]
