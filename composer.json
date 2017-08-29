@@ -1,0 +1,37 @@
+{
+  "name": "hauer-heinrich/hh_ckeditor_custom",
+  "type": "typo3-cms-extension",
+  "description": "[hauer-heinrich] ckeditor custom",
+  "homepage": "http://www.hauer-heinrich.de",
+  "license": "GPL-2.0+",
+  "keywords": [
+    "typo3",
+    "cms",
+    "hauer-heinrich",
+    "ckeditor"
+  ],
+  "version": "0.1.1",
+  "replace": {
+    "hh_ckeditor_custom": "self.version",
+    "typo3-ter/hh_ckeditor_custom": "self.version"
+  },
+  "support": {
+    "issues": "https://github.com/Hauer-Heinrich/hh_ckeditor_custom/issues",
+    "source": "https://github.com/Hauer-Heinrich/hh_ckeditor_custom"
+  },
+  "require": {
+    "typo3/cms-core": ">=8.7.0",
+    "typo3/rte_ckeditor": ">=8.7.0"
+  },
+  "authors": [
+    {
+      "name": "Christian Hackl",
+      "role": "Developer"
+    }
+  ],
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "hh_ckeditor_custom"
+    }
+  }
+}

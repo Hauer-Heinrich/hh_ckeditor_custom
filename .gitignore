@@ -43,6 +43,9 @@ node_modules
 .sass-cache
 
 
+### Composer
+composer.phar
+
 ### other ###
 /install.php
 /symlink.php
