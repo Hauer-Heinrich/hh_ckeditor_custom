@@ -10,7 +10,7 @@
     "hauer-heinrich",
     "ckeditor"
   ],
-  "version": "0.1.1",
+  "version": "0.1.2",
   "replace": {
     "hh_ckeditor_custom": "self.version",
     "typo3-ter/hh_ckeditor_custom": "self.version"
