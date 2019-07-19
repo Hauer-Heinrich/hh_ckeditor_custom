@@ -15,7 +15,7 @@
         "source": "https://github.com/Hauer-Heinrich/hh_ckeditor_custom",
         "docs": "https://github.com/Hauer-Heinrich/hh_ckeditor_custom/blob/master/README.md"
     },
-    "version": "0.1.3",
+    "version": "0.1.4",
     "license": ["GPL-2.0-or-later"],
     "keywords": [
         "typo3",
