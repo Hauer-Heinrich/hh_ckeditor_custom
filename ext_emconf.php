@@ -10,26 +10,26 @@
  * "version" and "dependencies" must not be touched!
  ***************************************************************/
 
-$EM_CONF['hh_ckeditor_custom'] = array(
-	'title' => 'Simple Ext for customize the ck_editor',
-	'description' => 'RTE ck_editor custom config with example data',
-	'category' => 'be',
-	'author' => 'Christian Hackl',
-	'author_email' => 'web@hauer-heinrich.de',
-	'state' => 'beta',
-	'internal' => '',
-	'uploadfolder' => '0',
-	'createDirs' => '',
-	'clearCacheOnLoad' => 0,
-	'version' => '0.1.3',
-	'constraints' => array(
-		'depends' => array(
-			'typo3' => '8.7.1-9.5.99',
-			'rte_ckeditor' => '',
-		),
-		'conflicts' => array(
-		),
-		'suggests' => array(
-		),
-	),
-);
+$EM_CONF['hh_ckeditor_custom'] = [
+    'title' => 'Simple Ext for customize the ck_editor',
+    'description' => 'RTE ck_editor custom config with example data',
+    'category' => 'be',
+    'author' => 'Christian Hackl',
+    'author_email' => 'web@hauer-heinrich.de',
+    'state' => 'beta',
+    'internal' => '',
+    'uploadfolder' => '0',
+    'createDirs' => '',
+    'clearCacheOnLoad' => 0,
+    'version' => '0.1.3',
+    'constraints' => [
+        'depends' => [
+            'typo3' => '8.7.1-9.5.99',
+            'rte_ckeditor' => '',
+        ],
+        'conflicts' => [
+        ],
+        'suggests' => [
+        ],
+    ],
+];

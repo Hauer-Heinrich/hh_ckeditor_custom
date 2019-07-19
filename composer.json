@@ -1,37 +1,44 @@
 {
-  "name": "hauer-heinrich/hh_ckeditor_custom",
-  "type": "typo3-cms-extension",
-  "description": "[hauer-heinrich] ckeditor custom",
-  "homepage": "http://www.hauer-heinrich.de",
-  "license": "GPL-2.0+",
-  "keywords": [
-    "typo3",
-    "cms",
-    "hauer-heinrich",
-    "ckeditor"
-  ],
-  "version": "0.1.3",
-  "replace": {
-    "hh_ckeditor_custom": "self.version",
-    "typo3-ter/hh_ckeditor_custom": "self.version"
-  },
-  "support": {
-    "issues": "https://github.com/Hauer-Heinrich/hh_ckeditor_custom/issues",
-    "source": "https://github.com/Hauer-Heinrich/hh_ckeditor_custom"
-  },
-  "require": {
-    "typo3/cms-core": "8.7.1-9.5.99",
-    "typo3/rte_ckeditor": ""
-  },
-  "authors": [
-    {
-      "name": "Christian Hackl",
-      "role": "Developer"
+    "name": "hauer-heinrich/hh-ckeditor-custom",
+    "type": "typo3-cms-extension",
+    "description": "[hauer-heinrich] ckeditor custom",
+    "authors": [
+        {
+            "name": "Christian Hackl",
+            "email": "info@hauer-heinrich.de",
+            "homepage": "http://www.hauer-heinrich.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Hauer-Heinrich/hh_ckeditor_custom/issues",
+        "source": "https://github.com/Hauer-Heinrich/hh_ckeditor_custom",
+        "docs": "https://github.com/Hauer-Heinrich/hh_ckeditor_custom/blob/master/README.md"
+    },
+    "version": "0.1.3",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": [
+        "typo3",
+        "cms",
+        "hauer-heinrich",
+        "ckeditor"
+    ],
+    "replace": {
+        "hh_ckeditor_custom": "self.version",
+        "typo3-ter/hh_ckeditor_custom": "self.version"
+    },
+    "require": {
+        "typo3/cms-core": "^8.7.1 || ^9.5.99",
+        "typo3/cms-rte-ckeditor": "^8.7.7 || ^9.5.99"
+    },
+    "autoload": {
+        "psr-4": {
+            "HauerHeinrich\\HhCkeditorCustom\\": "Classes"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "hh_ckeditor_custom"
+        }
     }
-  ],
-  "extra": {
-    "typo3/cms": {
-      "extension-key": "hh_ckeditor_custom"
-    }
-  }
 }
