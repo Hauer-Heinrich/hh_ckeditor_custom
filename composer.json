@@ -1,7 +1,7 @@
 {
-    "name": "hauer-heinrich/hh-ckeditor-custom",
+    "name": "hauerheinrich/hh-ckeditor-custom",
     "type": "typo3-cms-extension",
-    "description": "[hauer-heinrich] ckeditor custom",
+    "description": "Hauer-Heinrich - ckeditor custom",
     "authors": [
         {
             "name": "Christian Hackl",
