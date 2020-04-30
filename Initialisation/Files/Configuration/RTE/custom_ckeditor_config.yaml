@@ -21,7 +21,10 @@ editor:
       - "../fileadmin/hh_ckeditor_custom/Resources/Public/Css/custom_ckeditor.css"
 
     # For inline stil:
-    stylesSet: [{ "name": "color1", "element": "span", "attributes": {"class": "color1"} }, { "name": "color2", "element": "span", "attributes": {"class": "color2"} }]
+    stylesSet: [
+      { "name": "color1", "element": "span", "attributes": {"class": "color1"} },
+      { "name": "color2", "element": "span", "attributes": {"class": "color2"} }
+    ]
 
     # format tags:
     format_tags: "p;pre"
