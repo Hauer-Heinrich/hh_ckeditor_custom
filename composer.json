@@ -28,8 +28,8 @@
         "typo3-ter/hh_ckeditor_custom": "self.version"
     },
     "require": {
-        "typo3/cms-core": "^8.7.1 || ^10.4.99",
-        "typo3/cms-rte-ckeditor": "^8.7.7 || ^10.4.99"
+        "typo3/cms-core": "^8.7.1 || ^10.4",
+        "typo3/cms-rte-ckeditor": "^8.7.7 || ^10.4"
     },
     "autoload": {
         "psr-4": {
