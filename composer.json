@@ -15,7 +15,7 @@
         "source": "https://github.com/Hauer-Heinrich/hh_ckeditor_custom",
         "docs": "https://github.com/Hauer-Heinrich/hh_ckeditor_custom/blob/master/README.md"
     },
-    "version": "0.1.5",
+    "version": "0.1.6",
     "license": ["GPL-2.0-or-later"],
     "keywords": [
         "typo3",
@@ -28,8 +28,8 @@
         "typo3-ter/hh_ckeditor_custom": "self.version"
     },
     "require": {
-        "typo3/cms-core": "^8.7.7 || ^9.5 || ^10.4",
-        "typo3/cms-rte-ckeditor": "^8.7.7 || ^9.5 || ^10.4"
+        "typo3/cms-core": "^8.7.1 || ^9.5 || ^10.4",
+        "typo3/cms-rte-ckeditor": "^8.7.1 || ^9.5 || ^10.4"
     },
     "autoload": {
         "psr-4": {
