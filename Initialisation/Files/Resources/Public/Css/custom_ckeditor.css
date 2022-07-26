@@ -13,3 +13,6 @@ blockquote p:last-child { padding-bottom: 0; }
 
 .color1 { color: #eee; }
 .color2 { color: #333; }
+
+[data-color="#8b0000"] { color: #8b0000; }
+[data-color="#0000FF"] { color: #0000FF; }
