@@ -21,10 +21,10 @@ $EM_CONF['hh_ckeditor_custom'] = [
     'uploadfolder' => '0',
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
-    'version' => '0.1.6',
+    'version' => '0.1.7',
     'constraints' => [
         'depends' => [
-            'typo3' => '8.7.1-10.4.99',
+            'typo3' => '10.4.0-11.5.99',
             'rte_ckeditor' => '',
         ],
         'conflicts' => [
