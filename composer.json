@@ -15,6 +15,12 @@
         "source": "https://github.com/Hauer-Heinrich/hh_ckeditor_custom",
         "docs": "https://github.com/Hauer-Heinrich/hh_ckeditor_custom/blob/master/README.md"
     },
+    "funding": [
+        {
+            "type": "paypal",
+            "url": "https://www.paypal.com/paypalme/hauerheinrich"
+        }
+    ],
     "version": "0.1.7",
     "license": ["GPL-2.0-or-later"],
     "keywords": [
@@ -38,6 +44,8 @@
     },
     "extra": {
         "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": ".Build/Web",
             "extension-key": "hh_ckeditor_custom"
         }
     }
