@@ -21,7 +21,7 @@
             "url": "https://www.paypal.com/paypalme/hauerheinrich"
         }
     ],
-    "version": "0.1.7",
+    "version": "0.1.8",
     "license": ["GPL-2.0-or-later"],
     "keywords": [
         "typo3",
