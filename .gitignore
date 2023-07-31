@@ -52,3 +52,4 @@ composer.phar
 /deploy/
 /typo3-deploy/
 /typo3-deploy-dev/
+/*.zip
